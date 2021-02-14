@@ -18,7 +18,7 @@ alt="Heroku deployment" width="240" height="180" border="10" /></a>
 <a href="https://www.youtube.com/watch?v=HWBSSC7Vbg0" target="_blank"><img src="https://i.ytimg.com/vi/HWBSSC7Vbg0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoY6Alp2x_85Cec0rJ-l0wdMoYlQ" 
 alt="Heroku deployment" width="240" height="180" border="10" /></a>
  
-3. Creatting a readme file with images and other markups, following [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is referred as a cheat sheet for markdown.
+3. Creating a readme file with images and other markups, following [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is referred as a cheat sheet for markdown.
  
 ---
  

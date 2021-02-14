@@ -63,6 +63,7 @@ export class DataComponent implements OnInit {
   }
 
   flightNumber(item): number{
+    console.log(item)
     return item['flight_number']
   }
 

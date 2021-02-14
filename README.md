@@ -18,6 +18,8 @@ alt="Heroku deployment" width="240" height="180" border="10" /></a>
 <a href="https://www.youtube.com/watch?v=HWBSSC7Vbg0" target="_blank"><img src="https://i.ytimg.com/vi/HWBSSC7Vbg0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoY6Alp2x_85Cec0rJ-l0wdMoYlQ" 
 alt="Heroku deployment" width="240" height="180" border="10" /></a>
 
+3. Creatting a readme file with images and other markups, following [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is referred as a cheat sheet for markdown.
+
 ---
 
 ###About the project
@@ -38,6 +40,21 @@ Some Aria tags have also been implemented for accessibility purposes. Refer [lin
 
 ---
 
-Below is the sample image to test the image import from github repo for this project
+Below is the sample image to test the image import from github repo for this project, which is infact the folder structure of the project:
 
 <img src="https://github.com/Mayank-Ahuja/spaceXData/blob/master/readMedata/folder-structure.PNG" width="200" height="390">
+
+The above image import test was conducted to add the below Lighthouse test results for the application. Below image sizes have also been optimised using freeware online tool [TinyPng](https://tinypng.com/).
+
+##### Perforance Score
+
+<img src="https://github.com/Mayank-Ahuja/spaceXData/blob/master/readMedata/performance-scores.png" width="890" height="500">
+
+##### Assessibility Score
+<img src="https://github.com/Mayank-Ahuja/spaceXData/blob/master/readMedata/accessibility-score.png" width="890" height="500">
+
+##### Best Practice Score
+<img src="https://github.com/Mayank-Ahuja/spaceXData/blob/master/readMedata/best-practice-score.png" width="890" height="500">
+
+##### SEO Score
+<img src="https://github.com/Mayank-Ahuja/spaceXData/blob/master/readMedata/seo-score.png" width="890" height="500">

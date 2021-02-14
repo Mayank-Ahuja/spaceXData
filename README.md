@@ -11,6 +11,7 @@ Some of the things on this project has been implemented for the first time like:
 alt="Angular Universal" width="240" height="180" border="10" /></a>
 
 2. Deployment on Heroku -- 
+
 <a href="https://www.youtube.com/watch?v=SDvoYXCxBqY" target="_blank"><img src="https://i.ytimg.com/vi/SDvoYXCxBqY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDUtU--pBjPo_B5r3KZNvlv_-4sxg" 
 alt="Heroku deployment" width="240" height="180" border="10" /></a>
 

@@ -1,7 +1,9 @@
 <div class="py-3">
     <div class="row">
+        <!-- fiter section component to load the required filters seperately -->
         <app-filters-section class="filter-section mb-3"></app-filters-section>
 
+        <!-- since UI was not meating requiremnt, so program data cards are present here instead of the shared component -->
         <div class="program-section">
             <div class="row">
                 <ng-container *ngFor="let programs of programData | slice:0:sliceIndex; trackBy: flightNumber">
@@ -29,7 +31,7 @@
                                 </p>
     
                                 <p>
-                                    <label class="label">Successful Launch:</label>
+                                    <label class="label">Successful Landing:</label>
                                     <span class="value">{{programs['rocket']['first_stage']['cores'][0]['land_success']}}</span>
                                 </p>
                             </div>
@@ -38,16 +40,15 @@
                     </div>
                 </ng-container>
             </div>
+
             <div class="text-center">
-                <button *ngIf="allowLoadMore" class="loadMoreBtn" (click)="loadMore()">Load More</button>
+                <button *ngIf="allowLoadMore" [attr.aria-hidden]="!allowLoadMore" class="loadMoreBtn" (click)="loadMore()">Load More</button>
             </div>
 
-            <div class="loader" *ngIf="showLoader">
+            <div class="loader" [attr.aria-label]="loader" *ngIf="showLoader">
                 <img src="assets/images/Reload-1s-200px.gif" alt="Loading">
             </div>
-        </div>
-
-         
+        </div>         
 
     </div>
     

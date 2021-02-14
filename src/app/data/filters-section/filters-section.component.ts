@@ -8,6 +8,7 @@ export interface filterData {
   value: string
 }
 
+/* static filter action button values  */
 const launchYear: filterData[] = [
   {name: 'launch_year', value:'2006'},
   {name: 'launch_year', value:'2007'},
@@ -50,12 +51,14 @@ export class FiltersSectionComponent implements OnInit {
   launchSuccessData = launchSuccess;
   landingSuccessData = landSuccess;
 
+  /* used for settting the default values of the filters */
   queryParamsValues: object = {launch_year:'',launch_success:'',land_success:''};
 
   constructor(private route: ActivatedRoute,
     private router: Router) { }
 
   ngOnInit(): void {
+    /* query params values are fetched at load time if any found will be sent to defaultvalue input parameter */
     const queryParams = this.route.snapshot.queryParams;
      if(Object.keys(queryParams).length > 0){
       Object.keys(queryParams).map(queryParam=>{
@@ -64,6 +67,7 @@ export class FiltersSectionComponent implements OnInit {
      }
   }
 
+  /* function to set the query parmaeters in the URL w.r.t to the currently active route */
   setQueryParameters(): void {
     this.router.navigate([],{
       relativeTo: this.route,
@@ -72,6 +76,7 @@ export class FiltersSectionComponent implements OnInit {
     });
   }
 
+  /* function for capturing the values from the output decorator of filter radio group component */
   captureFilterValue(event):void {
     this.queryParams[event['name']] = event['value'];
     this.setQueryParameters();
